@@ -203,3 +203,37 @@ align-items: center;
 hr{
     border:1px solid rgba(16, 16, 16, 0.2);
 }
+/* responsive */
+@media screen and (max-width:576Px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .banner-section{
+        width: 100%;
+        height: auto;
+    }
+    .food{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .food-items{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    .about{
+        width: 100%;
+        flex-direction: column;
+        /* margin-top: 300px; */
+    }
+    .food-img{
+        display: none;
+    }
+    .food-des{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
